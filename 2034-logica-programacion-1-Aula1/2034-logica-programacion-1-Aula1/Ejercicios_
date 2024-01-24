@@ -1,0 +1,199 @@
+*Eres un desarrollador de software en una clínica médica llamada Médica Voll.
+La empresa desea que crees un pequeño juego de adivinanzas
+para sus pacientes mientras esperan en la sala de espera.
+Entonces, decides crear un juego del número secreto utilizando JavaScript,
+como se muestra a continuación:
+
+alert('Bienvenido al juego del número secreto');
+let intento = prompt('Elige un número entre 1 y 10');
+
+let numeroSecreto = 4;
+
+console.log(intento  == numeroSecreto);
+if (intento  == numeroSecreto) {
+    alert('Acertaste');
+} else {
+    alert('El número secreto era ' + numeroSecreto + ', pero elegiste ' + intento);
+}
+
+
+/*Eres una persona recién llegada al equipo de desarrollo de Jornada Millas,
+un sitio web de compra de paquetes de viaje para los principales destinos del mundo.
+Como primera tarea,
+tu liderazgo te ha pedido que corrijas un error que ha estado
+ocurriendo cuando un cliente del sitio
+intenta utilizar sus millas de tarjeta de crédito
+para obtener un descuento en los paquetes de viaje.
+Para esto, se te ha
+presentado el siguiente código:
+
+let porcentajeDescuento = 0;
+let cantidadDeMillas = prompt("Ingrese la cantidad de millas");
+if (cantidadDeMillas > 30000) {
+    porcentajeDescuento = porcentajeDescuento + 20;
+} else {
+    if (cantidadDeMillas > 5000) {
+        porcentajeDescuento = porcentajeDescuento + 10;
+    }
+}
+
+//La variable no es igualacion es asignacion
+//console.log(numeroUsuario);
+//este codigo realiza
+//la comparacion
+
+//el numero se cumplio
+if (numeroUsuario == numeroSecreto) {
+    //dentro de las variables se puede colocar codigo javaScript
+    alert(`Acercaste el numero ${numeroUsuario}`);
+    //la ccondicion no se cumple
+} else{
+    alert("Lo siento, no acertaste el numero");
+}
+
+//**************Hora de practicar************************
+//monstrar una alerta con el mensaje
+alert("¡Bienvenida y bienvenido a nuestro sitio web!")
+
+//crea una variable llamada nombre y asignar valor "luna"
+{let nombre = "luna";}
+
+//Crea una variable llamada edad y asignale el valor de 25
+var edad = 25;
+
+//Establece una variable numeroDeVentas y asígnale el valor 50.
+let numeroDeVentas = 50;
+
+let saldoDisponible = 1000
+
+alert("¡Error! Completa todos los campos.")
+
+let mensajeDeError = ("¡Error! Completa todos los campos");
+alert(mensajeDeError);
+
+{let nombre = prompt("Cual es tu nombre de usuario");}
+
+var edad = prompt("Ingresa tu edad");
+
+if (edad >= 18);
+    alert ("Puedes obtener tu licencia de conducir!")
+
+alert('Bienvenido al juego del número secreto');
+{let intento = prompt('Elige un número entre 1 y 10');}
+
+{let numeroSecreto = 4;}
+
+console.log(intento  == numeroSecreto);
+if (intento  == numeroSecreto) {
+    alert('Acertaste');
+} else {
+    alert('El número secreto era ' + numeroSecreto + ', pero elegiste ' + intento);
+}
+
+//********************************************************************************
+alert('Bienvenido al juego del número secreto');
+
+// Agrega un console.log para verificar el valor de "intento" después de la entrada del usuario
+let intento = prompt('Elige un número entre 1 y 10');
+console.log('Valor de intento:', intento);
+
+{let numeroSecreto = 4;}
+
+// Agrega un console.log para verificar la comparación entre "intento" y "numeroSecreto"
+console.log('Resultado de la comparación:', intento == numeroSecreto);
+
+if (intento == numeroSecreto) {
+    alert('Adivinaste');
+} else {
+    // Agrega un console.log para verificar el valor de "numeroSecreto" cuando el jugador se equivoca
+    console.log('Valor del número secreto:', numeroSecreto);
+    alert('El número secreto era ' + numeroSecreto);
+}
+
+
+let dia = prompt("¿Que dia de la semana es?");
+let fin1= ("sabado");
+let fin2= ("domingo");
+if ( dia === fin1 || dia === fin2){
+    alert("¡Buen fin de semana!");
+} else{
+    alert("buena semana")
+}
+
+let numero = prompt("escribe un numero negativo o positivo")
+if (numero >0){
+    alert("tu numero es positivo");
+} else if (numero < 0){
+    alert ("numero es negativo");
+} else {
+    alert("el numero es cero");
+
+}
+
+
+let num = prompt("escribe tu puntuacion obtenida")
+if(num >= 100){
+    alert("¡Felicidades, has ganado!")
+} else {
+    alert("Intenta nuevamente para ganar.")
+}
+
+let cuenta = 6
+alert (`el saldo de tu cuenta es de ${cuenta}`)
+
+let nombre = prompt("ingrese su nombre")
+alert(`bienvenido a nuestra pagina ${nombre}`)
+
+
+let mensaje = ("hola bienvenido")
+console.log(mensaje);
+let nombre = nombre;
+console.log(`hola, ${nombre}`);
+
+let nombre1 = ("jorge");
+alert(`hola, ${nombre1}`);
+let question = prompt("Cuál es el lenguaje de programación que más te gusta?.");
+console.log(question);
+let valor1 = 5;
+let valor2 = 4;
+let resultado = (valor1 - valor2);
+console.log(`La diferencia entre ${valor1} y ${valor2} es igual a ${resultado}`);
+
+let edad = prompt("ingresa tu edad");
+    if (edad >= 18){
+    console.log("eres mayor de edad")
+}   else ( edad < 18)
+    console.log("eres menor de edad")
+
+let numero1 = prompt("ingrese un valor")
+    if (numero1 > 0){
+        console.log("es un numero entero");
+    }else if (numero < 0){
+        console.log("tu numero es negativo")
+    } else {
+        console.log("tu numero es cero")
+    }
+
+numeroa = 10
+contador= 1
+while (contador <= numeroa){
+console.log(contador)
+    contador++
+}
+
+nota = 1
+if (nota > 7){
+    console.log("Aprobado")
+} else{
+    console.log("reprobado")
+}
+
+Semirandom = Math.random();
+    console.log(Semirandom);
+
+random1 = Math.floor(Math.random()*10 +)+1;
+    console.log(random1);
+
+random1 = Math.floor(Math.random()*1000 +)+1;
+    console.log(random1);
+*/
